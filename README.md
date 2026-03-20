@@ -57,4 +57,4 @@ I work at the intersection of cloud security and infrastructure automation — b
 
 ---
 
-*"Automate everything. Document everything. Then automate the documentation."*
+
