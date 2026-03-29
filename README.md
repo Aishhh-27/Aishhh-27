@@ -20,6 +20,7 @@ Kubernetes-based system that detects failing workloads and performs automated re
 
 Testing framework using Go for validating Terraform modules and Kubernetes deployments before production rollout.
 
+ These projects are part of a broader focus on building reliable, automated infrastructure systems.
 ---
 
 ## Tech Stack
