@@ -1,5 +1,5 @@
 # Aishwarya Ganesh
-
+Site Reliability Engineering focused on infrastructure automation, Kubernetes, and distributed systems.
 I build infrastructure automation and reliability systems using Go and Kubernetes.
 
 ## Projects
