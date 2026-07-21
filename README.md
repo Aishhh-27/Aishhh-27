@@ -1,43 +1,46 @@
-# Aishwarya Ganesh
-Site Reliability Engineer | Kubernetes | Terraform | Go | Multi-Tenant Infrastructure Automation
-Building scalable, self-healing infrastructure and automation systems inspired by GitLab Dedicated environments.
+# Hi, I'm Aishwarya Ganesh 👋
 
-## Projects
+Technical Support Engineer and Information Security Analyst focused on technical troubleshooting, IT systems, identity operations, and automation.
 
-### Multi-Tenant Environment Automation Platform
+## What I work with
 
-A Go-based platform for provisioning and managing isolated tenant environments using Terraform, Kubernetes, and Helm. Includes observability with Prometheus and Grafana, and automated failure detection with targeted self-healing.
+* Linux & Open Source Technologies
+* PostgreSQL, SQL & Database Administration
+* Cloud Infrastructure & APIs
+* Identity & Access Management
+* Joiner-Mover-Leaver (JML) Workflows
+* Endpoint & MDM Operations
+* Python & Bash Automation
+* Docker & Container Technologies
+* Incident Response & Root Cause Analysis
+* Security Operations & Compliance
 
-### Go Terraform Automation
+## Current Focus
 
-Automation tool for managing Terraform workflows using Go, including provisioning, updates, and infrastructure lifecycle management.
+I'm currently building practical projects around:
 
-### Kubernetes Self-Healing Operator
+* Identity lifecycle automation
+* Joiner-mover-leaver workflows
+* Access reviews and stale account detection
+* SaaS access governance
+* Endpoint compliance
+* IT operations automation
+* Security-focused runbooks and documentation
 
-Kubernetes-based system that detects failing workloads and performs automated recovery actions to maintain application availability.
+## Featured Projects
 
-### Infrastructure Testing Suite
+### Identity Lifecycle Automation
 
-Testing framework using Go for validating Terraform modules and Kubernetes deployments before production rollout.
+Python-based JML automation simulator for provisioning, role changes, offboarding, access management, and audit logging.
 
- These projects are part of a broader focus on building reliable, automated infrastructure systems.
----
+### Access Review Automation
 
-## Tech Stack
+Tool for identifying stale accounts, excessive access, and orphaned application assignments.
 
-Go, Kubernetes, Terraform, Helm, Prometheus, Grafana, GitHub Actions
+### Endpoint Compliance Checker
 
----
+Endpoint compliance simulation covering device enrollment, disk encryption, screen lock, OS patching, and security agent checks.
 
-## Focus Areas
+## Technical Background
 
-* Infrastructure automation
-* Site reliability engineering
-* Distributed systems
-* Kubernetes-based platforms
-
----
-
-## GitHub
-
-https://github.com/Aishhh-27
+I currently work across technical support and platform engineering, troubleshooting complex issues across applications, databases, cloud infrastructure, APIs, and internal systems. I enjoy finding recurring operational problems and turning them into automation, documentation, or better processes.
