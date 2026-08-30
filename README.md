@@ -1,46 +1,41 @@
-# Hi, I'm Aishwarya Ganesh 👋
+# Hey, I'm Aishwarya 
 
-Technical Support Engineer and Information Security Analyst focused on technical troubleshooting, IT systems, identity operations, and automation.
+I like figuring out **how things work under the hood** — especially when something breaks, slows down, or has to keep working despite failures.
 
-## What I work with
+My background is in technical support, systems, cloud infrastructure, troubleshooting, and automation. Lately, I've been spending a lot of time building things in **Rust**, mainly because I wanted to get closer to the systems themselves rather than just working around them.
 
-* Linux & Open Source Technologies
-* PostgreSQL, SQL & Database Administration
-* Cloud Infrastructure & APIs
-* Identity & Access Management
-* Joiner-Mover-Leaver (JML) Workflows
-* Endpoint & MDM Operations
-* Python & Bash Automation
-* Docker & Container Technologies
-* Incident Response & Root Cause Analysis
-* Security Operations & Compliance
+## What I've been building lately
 
-## Current Focus
+###  [Rust Edge Proxy](https://github.com/Aishhh-27/rust-edge-proxy)
 
-I'm currently building practical projects around:
+A lightweight asynchronous proxy built with Rust and Tokio.
 
-* Identity lifecycle automation
-* Joiner-mover-leaver workflows
-* Access reviews and stale account detection
-* SaaS access governance
-* Endpoint compliance
-* IT operations automation
-* Security-focused runbooks and documentation
+I built it to get hands-on with TCP connections, request forwarding, concurrency, backend failures, and observability.
 
-## Featured Projects
+###  [Rust Distributed Load Balancer](https://github.com/Aishhh-27/rust-distributed-load-balancer)
 
-### Identity Lifecycle Automation
+A small TCP load balancer that can route connections using round-robin or least-connections strategies.
 
-Python-based JML automation simulator for provisioning, role changes, offboarding, access management, and audit logging.
+It also handles backend health checks, failures and recovery, and exposes metrics so I can see what the system is actually doing.
 
-### Access Review Automation
+###  [Rust Distributed Routing](https://github.com/Aishhh-27/rust-distributed-routing)
 
-Tool for identifying stale accounts, excessive access, and orphaned application assignments.
+A small distributed routing service where multiple nodes maintain copies of routing state.
 
-### Endpoint Compliance Checker
+This one goes a little deeper into distributed-systems problems: replicated state, version ordering, stale updates, deletion tombstones, failure detection, and recovering state when a node comes back.
 
-Endpoint compliance simulation covering device enrollment, disk encryption, screen lock, OS patching, and security agent checks.
+## Things I enjoy working with
 
-## Technical Background
+**Rust** · **Tokio** · **Axum** · **TCP** · **Async I/O** · **Linux** · **Docker** · **Prometheus** · **Python** · **Bash**
 
-I currently work across technical support and platform engineering, troubleshooting complex issues across applications, databases, cloud infrastructure, APIs, and internal systems. I enjoy finding recurring operational problems and turning them into automation, documentation, or better processes.
+## How I like to learn
+
+I learn best by **building something small, breaking it, and figuring out why it broke**.
+
+That's also how I approach these projects. They're deliberately small enough that I can understand the code, test the failure cases, and explain the decisions behind the design instead of relying on layers of abstraction I don't understand.
+
+I'm particularly interested in **networking, systems programming, infrastructure, and distributed systems** — and I'm continuing to explore them one project at a time.
+
+---
+
+📌 **Currently:** Building, breaking, debugging, and learning.
