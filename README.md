@@ -34,8 +34,8 @@ I learn best by **building something small, breaking it, and figuring out why it
 
 That's also how I approach these projects. They're deliberately small enough that I can understand the code, test the failure cases, and explain the decisions behind the design instead of relying on layers of abstraction I don't understand.
 
-I'm particularly interested in **networking, systems programming, infrastructure, and distributed systems** — and I'm continuing to explore them one project at a time.
+I'm particularly interested in **networking, systems programming, infrastructure, and distributed systems** — and I am continuing to explore them one project at a time.
 
 ---
 
-📌 **Currently:** Building, breaking, debugging, and learning.
+ **Currently:** Building, breaking, debugging, and learning.
