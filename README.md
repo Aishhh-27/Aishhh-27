@@ -22,7 +22,7 @@ It also handles backend health checks, failures and recovery, and exposes metric
 
 A small distributed routing service where multiple nodes maintain copies of routing state.
 
-This one was more about what happens when multiple nodes have to share state — handling stale updates, deleted routes, node failures, and recovering state when a node comes back.
+This one was more about what happens when multiple nodes have to share state: replicated state, version ordering, stale updates, deletion tombstones, failure detection, and recovering state when a node comes back.
 
 ## Things I enjoy working with
 
@@ -32,7 +32,7 @@ This one was more about what happens when multiple nodes have to share state —
 
 I learn best by **building something small, breaking it, and figuring out why it broke**.
 
-I keep these projects small so I can understand what's happening, test what happens when things fail, and learn from the results.
+I keep these projects small so I can understand what's happening, test the failure cases, and learn from the results instead of relying on layers of abstraction I don't understand.
 
 I'm particularly interested in **networking, systems programming, infrastructure, and distributed systems** — and I am continuing to explore them one project at a time.
 
