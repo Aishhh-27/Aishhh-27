@@ -1,41 +1,105 @@
-# Hey, I'm Aishwarya
+# Hey, I'm Aishwarya 👋
 
-I like figuring out **how things work under the hood** — especially when something breaks, slows down, or has to keep working despite failures.
+I work on production infrastructure and cloud environments, with a focus on reliability, troubleshooting, automation, and understanding how systems behave when things go wrong.
 
-My background is in technical support, systems, cloud infrastructure, troubleshooting, and automation. Lately, I've been spending a lot of time building things in **Rust**, mainly because I wanted to get closer to the systems themselves rather than just working around them.
+In my current role at **DXC Technology**, I work with production environments across AWS and GCP. My day-to-day work involves Nginx, Docker, Kubernetes, MariaDB, PostgreSQL/RDS, PHP-based applications, Python, and Bash.
 
-## What I've been building lately
+A big part of my work is investigating production issues — service failures, performance problems, slow queries, database locking, resource issues, and availability problems. I’m also involved in on-call support and incident troubleshooting.
 
-### [Rust Edge Proxy](https://github.com/Aishhh-27/rust-edge-proxy)
+Outside of work, I’ve been using **Rust to build systems from the ground up** and get a deeper understanding of networking, concurrency, distributed systems, and failure handling.
 
-A lightweight asynchronous proxy built with Rust and Tokio.
+## What I've been building
 
-I built it to get hands-on with TCP connections, request forwarding, concurrency, backend failures, and observability.
+###  Rust Edge Proxy
 
-### [Rust Distributed Load Balancer](https://github.com/Aishhh-27/rust-distributed-load-balancer)
+An asynchronous reverse proxy built with Rust and Tokio.
 
-A small TCP load balancer that can route connections using round-robin or least-connections strategies.
+The project focuses on understanding what happens between a client and backend service, including:
 
-It also handles backend health checks, failures and recovery, and exposes metrics so I can see what the system is actually doing.
+* TCP connection handling
+* HTTP request forwarding
+* Async I/O and concurrency
+* Backend failures
+* Timeouts and retries
+* Request/response handling
+* Basic observability
 
-### [Rust Distributed Routing](https://github.com/Aishhh-27/rust-distributed-routing)
+###  Rust Distributed Load Balancer
 
-A small distributed routing service where multiple nodes maintain copies of routing state.
+A TCP load balancer built in Rust with multiple backend servers.
 
-This one was more about what happens when multiple nodes have to share state: replicated state, version ordering, stale updates, deletion tombstones, failure detection, and recovering state when a node comes back.
+It implements:
 
-## Things I enjoy working with
+* Round-robin routing
+* Least-connections routing
+* Backend health checks
+* Failure detection
+* Backend recovery
+* Connection tracking
+* Prometheus metrics
 
-**Rust** · **Tokio** · **Axum** · **TCP** · **Async I/O** · **Linux** · **Docker** · **Prometheus** · **Python** · **Bash**
+The goal was to understand how a load balancer behaves when backends become unhealthy and how traffic can be redistributed without taking the entire service down.
 
-## How I like to learn
+###  Rust Distributed Routing
 
-I learn best by **building something small, breaking it, and figuring out why it broke**.
+A small distributed routing system built to explore how nodes maintain and recover shared state.
 
-I keep these projects small so I can understand what's happening, test the failure cases, and learn from the results instead of relying on layers of abstraction I don't understand.
+It covers concepts such as:
 
-I'm particularly interested in **networking, systems programming, infrastructure, and distributed systems** — and I am continuing to explore them one project at a time.
+* State replication
+* Version ordering
+* Stale updates
+* Deletions and tombstones
+* Failure detection
+* Node recovery
+* State synchronization
 
----
+I built this primarily as a way to understand distributed systems concepts by implementing and testing them rather than treating them as abstractions.
 
-**Currently:** Building, breaking, debugging, and learning.
+## Technologies
+
+**Systems & Programming**
+
+Rust · Linux · Python · Bash · Processes · Concurrency · Async I/O
+
+**Networking**
+
+TCP · HTTP · DNS · Reverse Proxies · Load Balancing · Routing
+
+**Infrastructure**
+
+AWS · GCP · Docker · Kubernetes · Nginx
+
+**Databases**
+
+MariaDB · PostgreSQL · RDS
+
+**Web & Application**
+
+PHP · Web Services · REST APIs
+
+**Observability**
+
+Prometheus · Metrics · Logging · Production Troubleshooting
+
+## How I approach systems
+
+I like understanding what is happening underneath the abstraction.
+
+When something fails, slows down, or behaves unexpectedly, I try to trace the problem through the system rather than treating the symptom in isolation — from the application and network layer down to processes, resources, connections, and the underlying system.
+
+I also like deliberately breaking the systems I build. Failure scenarios are often where the interesting engineering problems show up.
+
+## What I'm interested in
+
+* Systems engineering
+* Infrastructure
+* Networking
+* Distributed systems
+* Linux and operating systems
+* Reliability and failure recovery
+* Performance troubleshooting
+* Automation
+* Observability
+
+**Currently:** building systems, breaking them, debugging them, and learning why they behave the way they do.
