@@ -1,105 +1,60 @@
-# Hey, I'm Aishwarya 👋
+# Hi, I'm Aishwarya 👋
 
-I work on production infrastructure and cloud environments, with a focus on reliability, troubleshooting, automation, and understanding how systems behave when things go wrong.
+**Information Security Analyst | Technical Troubleshooting | Full-Stack Application Debugging**
 
-In my current role at **DXC Technology**, I work with production environments across AWS and GCP. My day-to-day work involves Nginx, Docker, Kubernetes, MariaDB, PostgreSQL/RDS, PHP-based applications, Python, and Bash.
+I work on production infrastructure and investigate application, database, performance, and availability issues. I enjoy tracing failures across application, API, network, and database layers to identify root causes and implement reliable fixes.
 
-A big part of my work is investigating production issues — service failures, performance problems, slow queries, database locking, resource issues, and availability problems. I’m also involved in on-call support and incident troubleshooting.
+My current work at DXC Technology includes production troubleshooting, infrastructure operations, and incident investigation. Alongside my professional work, I build hands-on projects to strengthen my application debugging, automation, and software engineering skills.
 
-Outside of work, I’ve been using **Rust to build systems from the ground up** and get a deeper understanding of networking, concurrency, distributed systems, and failure handling.
+## 🚀 Featured Project
 
-## What I've been building
+### [DebugDesk — Incident Investigation Dashboard](https://github.com/Aishhh-27/debugdesk)
 
-###  Rust Edge Proxy
+A full-stack incident investigation platform built to demonstrate support and troubleshooting workflows.
 
-An asynchronous reverse proxy built with Rust and Tokio.
+**Tech stack:** React · TypeScript · Node.js · Hono · PostgreSQL · Drizzle ORM · Docker
 
-The project focuses on understanding what happens between a client and backend service, including:
+- Investigate incidents and inspect diagnostic details.
+- Track severity, status, and resolution.
+- Record investigation notes and maintain an activity timeline.
+- Build and test REST API endpoints.
+- Manage database schema changes with migrations.
+- Validate backend behavior with automated API tests.
+- Run frontend and backend checks through GitHub Actions CI.
 
-* TCP connection handling
-* HTTP request forwarding
-* Async I/O and concurrency
-* Backend failures
-* Timeouts and retries
-* Request/response handling
-* Basic observability
+**Quality checks:** Backend tests, TypeScript checks, frontend linting, and production builds.
 
-###  Rust Distributed Load Balancer
+[View source code and setup instructions →](https://github.com/Aishhh-27/debugdesk)
 
-A TCP load balancer built in Rust with multiple backend servers.
+## 🛠️ Technical Skills
 
-It implements:
+| Area | Technologies |
+|---|---|
+| Web applications | React, TypeScript, REST APIs, HTTP |
+| Backend | Node.js, Hono, Python, Bash |
+| Databases | PostgreSQL, MariaDB, AWS RDS |
+| Infrastructure | Linux, Docker, Kubernetes, AWS, GCP |
+| Troubleshooting | Incident investigation, performance analysis, database issues, root-cause analysis |
+| Observability | Prometheus, metrics, logging |
+| Automation and delivery | Git, GitHub Actions, Terraform |
 
-* Round-robin routing
-* Least-connections routing
-* Backend health checks
-* Failure detection
-* Backend recovery
-* Connection tracking
-* Prometheus metrics
+## 🔧 Other Engineering Projects
 
-The goal was to understand how a load balancer behaves when backends become unhealthy and how traffic can be redistributed without taking the entire service down.
+- [Rust Edge Proxy](https://github.com/Aishhh-27/rust-edge-proxy) — Reverse proxy, HTTP forwarding, health checks, and observability.
+- [Rust Distributed Load Balancer](https://github.com/Aishhh-27/rust-distributed-load-balancer) — Backend health checks, traffic routing, failure detection, and recovery.
+- [Rust Distributed Routing](https://github.com/Aishhh-27/rust-distributed-routing) — Distributed state synchronization, failure detection, and node recovery.
 
-###  Rust Distributed Routing
+## 💡 How I Approach Troubleshooting
 
-A small distributed routing system built to explore how nodes maintain and recover shared state.
+1. Reproduce the issue and identify its impact.
+2. Inspect available logs, errors, requests, and system behavior.
+3. Isolate the failing application, API, infrastructure, or database component.
+4. Test a focused fix and validate the result.
+5. Document findings and identify ways to prevent recurrence.
 
-It covers concepts such as:
+I value clear technical documentation, reliable systems, practical automation, and concise communication.
 
-* State replication
-* Version ordering
-* Stale updates
-* Deletions and tombstones
-* Failure detection
-* Node recovery
-* State synchronization
+## 📫 Connect
 
-I built this primarily as a way to understand distributed systems concepts by implementing and testing them rather than treating them as abstractions.
-
-## Technologies
-
-**Systems & Programming**
-
-Rust · Linux · Python · Bash · Processes · Concurrency · Async I/O
-
-**Networking**
-
-TCP · HTTP · DNS · Reverse Proxies · Load Balancing · Routing
-
-**Infrastructure**
-
-AWS · GCP · Docker · Kubernetes · Nginx
-
-**Databases**
-
-MariaDB · PostgreSQL · RDS
-
-**Web & Application**
-
-PHP · Web Services · REST APIs
-
-**Observability**
-
-Prometheus · Metrics · Logging · Production Troubleshooting
-
-## How I approach systems
-
-I like understanding what is happening underneath the abstraction.
-
-When something fails, slows down, or behaves unexpectedly, I try to trace the problem through the system rather than treating the symptom in isolation — from the application and network layer down to processes, resources, connections, and the underlying system.
-
-I also like deliberately breaking the systems I build. Failure scenarios are often where the interesting engineering problems show up.
-
-## What I'm interested in
-
-* Systems engineering
-* Infrastructure
-* Networking
-* Distributed systems
-* Linux and operating systems
-* Reliability and failure recovery
-* Performance troubleshooting
-* Automation
-* Observability
-
-**Currently:** building systems, breaking them, debugging them, and learning why they behave the way they do.
+- [LinkedIn](https://www.linkedin.com/in/aishwaryaa-ganesh/)
+- [GitHub Repositories](https://github.com/Aishhh-27?tab=repositories)
